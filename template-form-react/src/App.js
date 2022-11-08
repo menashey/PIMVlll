@@ -1,8 +1,8 @@
 import "./App.css";
-import formulario from "./components/formulario";
+import Formulario from "./components/formulario";
 
 function App() {
-  return <formulario></formulario>;
+  return <Formulario />;
 }
 
 export default App;
