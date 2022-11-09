@@ -1,0 +1,22 @@
+.campo {
+  border-style: solid;
+  border-color: black;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  background: #2bbbe2;
+  padding-bottom: 11px;
+  padding-top: 11px;
+}
+
+.textinput {
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+.inputarea {
+  padding-bottom: 5px;
+}

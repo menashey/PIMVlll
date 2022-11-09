@@ -1,37 +1,39 @@
 import React from "react";
+import Botoes from "../botoes";
 import "./formulario.css";
 
 function formulario () {
     return ( 
-        <form>
-    <div>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" />
+        <form className="campo">
+    <div className="inputarea">
+        <label for="nome" className="textinput">Nome:</label>
+        <input type="text" id="nome" className="inputfield" />
     </div>
-    <div>
-        <label for="cpf">CPF</label>
-        <input type="number" id="cpf" />
+    <div className="inputarea">
+        <label for="cpf" className="textinput">CPF:</label>
+        <input type="number" id="cpf" className="inputfield"/>
+    </div> 
+    <div className="inputarea">
+        <label for="endereco" className="textinput">Endereço:</label>
+        <input type="text" id="endereco"className="inputfield" />
     </div>
-    <div>
-        <label for="endereco">Endereço</label>
-        <input type="text" id="endereco" />
+    <div className="inputarea">
+        <label for="estado" className="textinput">Estado:</label>
+        <input type="text" id="estado" className="inputfield"/>
     </div>
-    <div>
-        <label for="estado">Estado:</label>
-        <input type="text" id="estado" />
+    <div className="inputarea">
+        <label for="bairro" className="textinput">Bairro:</label>
+        <input type="text" id="bairro" className="inputfield"/>
     </div>
-    <div>
-        <label for="bairro">Bairro:</label>
-        <input type="text" id="bairro" />
+    <div className="inputarea">
+        <label for="cep" className="textinput">CEP:</label>
+        <input type="number" id="cep" className="inputfield"/>
     </div>
-    <div>
-        <label for="cep">CEP:</label>
-        <input type="number" id="cep" />
+    <div className="inputarea">
+        <label for="telefone" className="textinput">Telefone:</label>
+        <input type="number" id="numero" className="inputfield"/>
     </div>
-    <div>
-        <label for="telefone">Telefone:</label>
-        <textarea type="number" id="numero"></textarea>
-    </div>
+    <Botoes></Botoes>
 </form>
 
         
