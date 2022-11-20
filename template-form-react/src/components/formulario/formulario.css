@@ -7,7 +7,7 @@
   align-items: center;
   margin: 0 auto;
   flex-direction: column;
-  background: #2bbbe2;
+  background: #25a7cb;
   padding-bottom: 11px;
   padding-top: 11px;
 }
@@ -19,4 +19,32 @@
 
 .inputarea {
   padding-bottom: 5px;
+}
+
+.inputfieldname {
+  margin-left: 30px;
+}
+
+.inputfieldcpf {
+  margin-left: 47px;
+}
+
+.inputfieldadress {
+  margin-left: 6px;
+}
+
+.inputfieldstate {
+  margin-left: 26px;
+}
+
+.inputfielddistrict {
+  margin-left: 30px;
+}
+
+.inputfieldzipcode {
+  margin-left: 45px;
+}
+
+.inputfieldnumber {
+  margin-left: 10px;
 }

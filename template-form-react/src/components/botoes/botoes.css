@@ -3,17 +3,12 @@
 }
 
 .btn {
+  background-color: black;
   color: white;
   border-radius: 5px;
   border-style: none;
   width: 85px;
   height: 25px;
-}
-.btnsave {
-  background-color: black;
-}
-.btncancel {
-  background-color: red;
 }
 
 .container-savebtn {
